@@ -36,16 +36,17 @@ dense (Dense)               (None, 9)                 69705
                                                                                                                                
 =================================================================
 Total params: 277,129
+
 Trainable params: 277,129
+
 Non-trainable params: 0
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+From the first analysis it is found that model is overfitting due to class imbalance in data
+Accuracy on training data has increased by using Augmentor library
+Model is still overfitting
+The problem of overfitting can be solved by add more layer,neurons or adding dropout layers.
+The Model can be further improved by tuning the hyperparameter
 
 
 ## Technologies Used
@@ -55,16 +56,6 @@ Non-trainable params: 0
 - tensorflow.keras
 - pathlib
 
-
-
-References
-Melanoma Skin Cancer from https://www.cancer.org/cancer/melanoma-skin-cancer/about/what-is-melanoma.html
-
-Introduction to CNN from https://www.analyticsvidhya.com/blog/2021/05/convolutional-neural-networks-cnn/
-
-Image classification using CNN from https://www.analyticsvidhya.com/blog/2020/02/learn-image-classification-cnn-convolutional-neural-networks-3-datasets/
-
-Efficient way to build CNN architecture from https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-ii-hyper-parameter-42efca01e5d7
 
 
 
