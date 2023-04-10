@@ -2,14 +2,13 @@
 
 The cardinal objective of this project is to develop state of the art Convolutional Neural Network (CNN) model to perform the classiﬁcation of skin lesion images into respective cancer types. The model is trained and tested on the dataset made available by International Skin Imaging Collaboration (ISIC). The model can beused for analyzing the lesion image and ﬁnd out if it’s dangerous at early stage.
 
-## Table of Contents
-general-information: 
+## general-information: 
 Generally, skin cancer is of two types: melanoma and non-melanoma. Melanoma also called as Malignant Melanoma is the 19th most frequently occurring cancer in women and men. It is the deadliest form of skin cancer.In the year 2015, the global occurrence of melanoma was approximated to be over 350,000 cases, with around 60,000 deaths.
 The most prevalent non-melanoma tumours are squamous cell carcinoma and basal cell carcinoma. Non-melanoma skin cancer is the 5th most frequently occurring cancer, with over 1 million diagnoses worldwide in 2018. As of 2019, greater than 1.7 Million new cases are expected to be diagnosed [3]. Even though the mortality is significantly high, but when detected early, survival rate exceeds 95%. This motivates us to come up with a solution to save millions of lives by early detection of skin cancer. Convolutional Neural Network (CNN) or ConvNet, are a class of deep neural networks, basically generalized version of multi-layer perceptrons. CNNs have given highest accuracy in visual imaging tasks. This project aims to develop a skin cancer detection CNN model which can classify the skin cancer types and help
 in early detection. The CNN classification model will be developed in Python using Keras and Tensorflow in the backend. The model is developed and tested with different network architectures by varying the type of layers used to train the network including but not limited to Convolutional layers, Dropout layers, Pooling layers and Dense layers. The model will also make use of Transfer Learning techniques for early convergence. The model will be tested and trained on the dataset collected from the International Skin Imaging Collaboration (ISIC) challenge archives.
 
-#technologies-used
-CNN Architecture Design
+
+## CNN Architecture Design
 To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, I have built custom CNN model.
 
 Rescalling Layer - To rescale an input in the [0, 255] range to be in the [0, 1] range.
@@ -42,20 +41,6 @@ dense (Dense)               (None, 9)                 69705
 Total params: 277,129
 Trainable params: 277,129
 Non-trainable params: 0
-
-
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
 - Conclusion 1 from the analysis
