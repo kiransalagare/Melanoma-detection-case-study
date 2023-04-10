@@ -57,11 +57,11 @@ The Model can be further improved by tuning the hyperparameter
 
 
 ## Technologies Used
--tensorflow- version 2.12.0
-- matplotlib.pyplot 
-- numpy 
-- tensorflow.keras
-- pathlib
+tensorflow- version 2.12.0
+matplotlib.pyplot 
+numpy 
+tensorflow.keras
+pathlib
 
 ## Contact
 Created by @kirasalagare - feel free to contact me!
