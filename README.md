@@ -3,7 +3,7 @@
 The cardinal objective of this project is to develop state of the art Convolutional Neural Network (CNN) model to perform the classiﬁcation of skin lesion images into respective cancer types. The model is trained and tested on the dataset made available by International Skin Imaging Collaboration (ISIC). The model can beused for analyzing the lesion image and ﬁnd out if it’s dangerous at early stage.
 
 ## Problem Statement
-In the skin biopsy, the dermatologist takes some part of the skin lesion and examines it under the microscope. The current process takes almost a week or more, starting from getting a dermatologist appointment to getting a biopsy report. The aims to shorten the current gap to just a couple of days by providing the predictive model. The approach uses Convolutional Neural Network (CNN) to classify nine types of skin cancer from outlier lesions images. This reduction of a gap has the opportunity to impact millions of people positively.
+To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
 ## CNN Architecture Design
 To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, I have built custom CNN model.
@@ -43,10 +43,16 @@ Trainable params: 277,129
 Non-trainable params: 0
 
 ## Conclusions
-From the first analysis it is found that model is overfitting due to class imbalance in data
-Accuracy on training data has increased by using Augmentor library
+![image](https://user-images.githubusercontent.com/105053157/230935658-0e7f09ca-0b52-40d3-b69b-017e616a7be4.png)
+
+1) From the first analysis it is found that model is overfitting due to class imbalance in data
+
+![image](https://user-images.githubusercontent.com/105053157/230936028-48e1f59e-4ea1-4212-afc7-eb6ec86e8e53.png)
+
+2) Accuracy on training data has increased by using Augmentor library and by increasing number of epochs.
 Model is still overfitting
-The problem of overfitting can be solved by add more layer,neurons or adding dropout layers.
+
+3)The problem of overfitting can be solved by add more layer,neurons or adding dropout layers.
 The Model can be further improved by tuning the hyperparameter
 
 
@@ -57,6 +63,8 @@ The Model can be further improved by tuning the hyperparameter
 - tensorflow.keras
 - pathlib
 
+## Contact
+Created by @kirasalagare - feel free to contact me!
 
 
 
