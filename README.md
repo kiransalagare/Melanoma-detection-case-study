@@ -18,21 +18,21 @@ Activation Function(ReLU) - The rectified linear activation function or ReLU for
 Activation Function(Softmax) - The softmax function is used as the activation function in the output layer of neural network models that predict a multinomial probability distribution. The main advantage of using Softmax is the output probabilities range. The range will 0 to 1, and the sum of all the probabilities will be equal to one
 Model: "sequential"
 _________________________________________________________________
- Layer (type)                Output Shape              Param   
+ Layer (type)                        Output Shape                Param   
 =================================================================
- rescaling (Rescaling)       (None, 180, 180, 3)       0         
- conv2d (Conv2D)             (None, 180, 180, 32)      2432      
- conv2d_1 (Conv2D)           (None, 180, 180, 32)      25632     
-max_pooling2d (MaxPooling2D) (None, 90, 90, 32)       0                                                                   
-conv2d_2 (Conv2D)           (None, 90, 90, 32)        25632     
-max_pooling2d_1(MaxPooling 2D) (None, 45, 45, 32)       0                                                         
-conv2d_3 (Conv2D)           (None, 45, 45, 64)        51264     
-max_pooling2d_2 (MaxPooling 2D)   (None, 22, 22, 64)       0                                                                     
-conv2d_4 (Conv2D)           (None, 22, 22, 64)        102464                                                                    
-max_pooling2d_3 (MaxPooling 2D)    (None, 11, 11, 64)       0         
-dropout (Dropout)           (None, 11, 11, 64)        0                                                       
-flatten (Flatten)           (None, 7744)              0                                                                      
-dense (Dense)               (None, 9)                 69705         
+ rescaling (Rescaling)              (None, 180, 180, 3)           0         
+ conv2d (Conv2D)                    (None, 180, 180, 32)        2432      
+ conv2d_1 (Conv2D)                  (None, 180, 180, 32)        25632     
+max_pooling2d (MaxPooling2D)        (None, 90, 90, 32)            0                                                                   
+conv2d_2 (Conv2D)                   (None, 90, 90, 32)          25632     
+max_pooling2d_1(MaxPooling 2D)      (None, 45, 45, 32)           0                                                         
+conv2d_3 (Conv2D)                   (None, 45, 45, 64)          51264     
+max_pooling2d_2 (MaxPooling 2D)     (None, 22, 22, 64)           0                                                                     
+conv2d_4 (Conv2D)                   (None, 22, 22, 64)         102464                                                                    
+max_pooling2d_3 (MaxPooling 2D)     (None, 11, 11, 64)           0         
+dropout (Dropout)                   (None, 11, 11, 64)           0                                                       
+flatten (Flatten)                   (None, 7744)                 0                                                                      
+dense (Dense)                       (None, 9)                  69705         
                                                                                                                                
 =================================================================
 Total params: 277,129
