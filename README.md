@@ -72,17 +72,21 @@ Non-trainable params: 0
 _________________________________________________________________
 
 ## Conclusions
+
+1st analysis:
 ![image](https://user-images.githubusercontent.com/121044079/231836576-f574b3af-669c-4bb2-aa31-4124d5459374.png) 
 
 Conclusion 1: The model is overfitting because the is a visible difference between loss functions in training and test just before the 10th epoch. The accuracy is greater than 60% as there are sufficient features to remember the pattern.
 
+2nd analysis:
 ![image](https://user-images.githubusercontent.com/121044079/231836642-43a4aedb-eed1-42af-b32c-a77a76687397.png) 
 
-Data augmentation helped solve the overfitting problem. However, accuracy decreased to 50%.
+Conclusion 2: Data augmentation helped solve the overfitting problem. However, accuracy decreased to 50%.
 
+3rd analysis:
 ![image](https://user-images.githubusercontent.com/121044079/231836732-4abd6f9e-2ce9-42bd-bab8-a590345c1638.png)
 
-Using the Augmentor library helped in increasing the accuracy of the training set upto more than 80% but overfitting still persists on the model.
+Conclusion 3: Using the Augmentor library helped in increasing the accuracy of the training set upto more than 80% but overfitting still persists on the model.
 
 ## Technologies Used
 tensorflow - version 2.12.0
