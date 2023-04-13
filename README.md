@@ -96,27 +96,4 @@ tensorflow - version 2.12.0
 pathlib - version 1.0.1
 
 ## Contact
-Created by @kiransalagare and @nmadhavashyam - feel free to contact us!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Created by @kiransalagare, @nmadhavashyam and @shardulchaudhar - feel free to contact us!
