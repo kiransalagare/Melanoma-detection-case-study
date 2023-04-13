@@ -13,8 +13,11 @@ The cardinal objective of this project is to develop state of the art Convolutio
 To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
 ## CNN Architecture Design
-To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, a custom CNN model has been built.
+To classify skin cancer using skin lesions images. 
+
 ![image](https://user-images.githubusercontent.com/121044079/231839702-406d6dd8-8e57-4cbb-ace9-346845a9c15c.png)
+
+In order to achieve higher accuracy and results on the classification task, a custom CNN model has been built.
 
 Rescalling Layer - To rescale an input in the [0, 255] range to be in the [0, 1] range.
 Convolutional Layer - Convolutional layers apply a convolution operation to the input, passing the result to the next layer. A convolution converts all the pixels in its receptive field into a single value. For example, if you would apply a convolution to an image, you will be decreasing the image size as well as bringing all the information in the field together into a single pixel.
@@ -70,10 +73,15 @@ _________________________________________________________________
 
 ## Conclusions
 ![image](https://user-images.githubusercontent.com/121044079/231836576-f574b3af-669c-4bb2-aa31-4124d5459374.png) 
+
 Conclusion 1: The model is overfitting because the is a visible difference between loss functions in training and test just before the 10th epoch. The accuracy is greater than 60% as there are sufficient features to remember the pattern.
+
 ![image](https://user-images.githubusercontent.com/121044079/231836642-43a4aedb-eed1-42af-b32c-a77a76687397.png) 
+
 Data augmentation helped solve the overfitting problem. However, accuracy decreased to 50%.
+
 ![image](https://user-images.githubusercontent.com/121044079/231836732-4abd6f9e-2ce9-42bd-bab8-a590345c1638.png)
+
 Using the Augmentor library helped in increasing the accuracy of the training set upto more than 80% but overfitting still persists on the model.
 
 ## Technologies Used
